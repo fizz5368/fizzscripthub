@@ -6926,3 +6926,12 @@ local FunkySection = FunkyTab:NewSection("Funky friday")
 FunkySection:NewButton("Funky friday script", "This is a cheat script made for the game Funky friday!", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/eQXzG0EB"))()
 end)
+
+local TypesoulTab = Window:NewTab("Type Soul")
+
+local TypesoulSection = TypesoulTab:NewSection("Type Soul Key will be printed into console")
+
+TypesoulSection:NewButton("Type soul KEY: NewTypeSoul9871Roblox", "This is a cheat script made for the game Type soul! Key for this script is NewTypeSoul9871Roblox", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Type/main/Soul"))()
+	print("Key: NewTypeSoul9871Roblox");
+end)
